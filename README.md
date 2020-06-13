@@ -39,4 +39,8 @@ In order to cover all branches we need 5 test cases: an uninitialized user, an u
 
 ....  
 # Објаснување на напишаните unit tests  
-... ...  
+
+The first test case of every statement is expected to be false since it will go through 1-2-3-19-20
+and the second is expected to be true since the password is as it is expected according to the conditions.
+
+Within the function for testing every branc test cases, only the third test case is expected to be true because it is the only one that has the user with expected password while the other 4 are false. First of those for is false because the user is null and from third node it goes directly to 19 and 20 while the second one goes from 4th node to 19-20 because it was provided with a user with null username, null password and null email. The fourth fails because it has a password that has no digit. The fifth fails because it has a password that has no special character.
