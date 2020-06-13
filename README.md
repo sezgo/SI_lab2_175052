@@ -29,7 +29,7 @@ nodes = 23.
 user = null goes through 1-2-3--19-20  
 and  
 User user = new User(sezgo, my$passworD1, mymail@mail.com)  
-goes through every statement except 19 -20 which was covered with the first test case.  
+goes through every statement except 19 which was covered with the first test case.  
 
 ....  
 # Тест случаи според критериумот Every path  
