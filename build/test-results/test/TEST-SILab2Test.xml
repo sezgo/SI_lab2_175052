@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SILab2Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-13T21:17:09" hostname="DESKTOP-LFM7PR6" time="0.013">
+  <properties/>
+  <testcase name="testEveryStatement()" classname="SILab2Test" time="0.011"/>
+  <testcase name="testEveryBranch()" classname="SILab2Test" time="0.001"/>
+  <system-out><![CDATA[All test cases for every statement criteria!
+All test cases for every branch criteria!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
