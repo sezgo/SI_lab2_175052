@@ -26,8 +26,17 @@ nodes = 23.
 
 
 # Тест случаи според критериумот Every statement  
+user = null goes through 1-2-3--19-20  
+and  
+User user = new User(sezgo, my$passworD1, mymail@mail.com)  
+goes through every statement except 19 -20 which was covered with the first test case.  
+
 ....  
 # Тест случаи според критериумот Every path  
+In order to cover all branches we need 5 test cases: an uninitialized user, an user that's initialized with null username, password and mail, a user with a password that has digit, upper case letter and special character in it, a user with a password that has upper case letter and special character but no digits in it, a user with a password that has digits but no upper case and no special character in it.
+
+![table for everybranc](every-branch-table.png) 
+
 ....  
 # Објаснување на напишаните unit tests  
 ... ...  
